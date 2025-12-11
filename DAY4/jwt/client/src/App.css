@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+/* Main outer container stays normal */
+body > div {
+  width: 350px;
+  margin: 30px auto;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Each form becomes a separate small box */
+form {
+  background: #ffffff;
+  padding: 20px 22px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  margin-bottom: 25px;      /* space between register & login */
+}
+
+/* Heading above each form */
+h2 {
+  text-align: center;
+  margin: 15px 0;
+  color: #333;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4a90e2;
+  border: none;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #357bc0;
+}

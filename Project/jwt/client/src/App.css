@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+/* Main outer container */
+body > div {
+  width: 350px;
+  margin: 30px auto;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* Form boxes (register & login) */
+form {
+  background: #ffffff;
+  padding: 20px 22px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  margin-bottom: 25px;
+}
+
+/* Form headings */
+h2 {
+  text-align: center;
+  margin: 15px 0;
+  color: #222;        /* darker for clarity */
+  font-weight: 600;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #b5b5b5;   /* slightly darker border */
+  border-radius: 6px;
+  font-size: 15px;
+  color: #333;                 /* darker text */
+}
+
+/* Placeholder text */
+input::placeholder {
+  color: #666;                 /* more visible */
+  font-weight: 500;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4a90e2;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-top: 8px;
+  cursor: pointer;
+  font-weight: 600;            /* bolder text */
+}
+
+button:hover {
+  background: #357bc0;
+}
